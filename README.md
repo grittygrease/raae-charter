@@ -7,6 +7,8 @@ SEAL construction, and authentication of segmented data.
 ## Documents
 
 - [CHARTER.md](CHARTER.md): the charter sketch for discussion at IETF 127.
+- [use-cases.md](use-cases.md): use cases and requirements collected from
+  cfrg@ and raae@.
 
 ## IETF 127 side meeting
 
