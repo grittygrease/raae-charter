@@ -4,6 +4,10 @@ Working text for a proposed IETF working group on symmetric cryptography
 for segmented data: random-access authenticated encryption (raAE), the
 SEAL construction, and authentication of segmented data.
 
+## Documents
+
+- [CHARTER.md](CHARTER.md): the charter sketch for discussion at IETF 127.
+
 ## IETF 127 side meeting
 
 Thursday, 19 November 2026, 12:30 to 14:00 PT, Plaza A, Hilton Union
