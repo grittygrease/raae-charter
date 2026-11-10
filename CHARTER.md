@@ -1,7 +1,7 @@
 # [NAME] working group: charter sketch
 
-IETF 127 side-meeting material, 5 November 2026. A sketch for
-discussion, not an agreed charter.
+IETF 127 side-meeting material, 5 November 2026, revised 10 November
+2026. A sketch for discussion, not an agreed charter.
 
 Large objects are increasingly stored, sent and processed in segments
 rather than as one unit: encrypted files and backups that are read in
@@ -25,7 +25,8 @@ group will specify how to encrypt, decrypt, append to and rewrite
 individual segments of an object. This includes key commitment, position
 and finality binding, nonce handling for each write model (write-once,
 append-only and rewritable), cipher suites assembled from existing AEADs
-and KDFs, usage limits, serialization layouts and test vectors.
+and KDFs, usage limits, serialization layouts and test vectors. Suites
+may use a shorter tag length where an existing AEAD already defines one.
 
 Authentication of segmented data. The group will specify authenticators
 that bind a set of segments, their order and their count to a single
@@ -45,9 +46,12 @@ learns before an object is complete.
 
 The group will produce profiles for the applications that motivate the
 work, developed with the working groups that own those protocols.
-Initial applications are MLS attachments, Media over QUIC,
-content-defined chunking for backup, encrypted files and archives, and
-HTTP incremental integrity.
+Initial applications, drawn from the use-case document, are archives and
+backups, append-only logs, real-time media such as Media over QUIC,
+shared documents and MLS attachments, deduplicated storage with
+content-defined chunking, block storage and filesystems, existing
+segmented formats that lack a set authenticator, and integrity of HTTP
+content without encryption.
 
 Out of scope: new block ciphers, hash functions, AEAD algorithms or
 other cryptographic primitives; changes to MLS, MoQ, HTTP or DNSSEC
