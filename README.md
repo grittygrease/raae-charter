@@ -15,7 +15,8 @@ SEAL construction, and authentication of segmented data.
 Thursday, 19 November 2026, 12:30 to 14:00 PT, Plaza A, Hilton Union
 Square, San Francisco. Remote: https://ietf.webex.com/meet/sidemeetings2
 
-Materials will be posted in `meetings/ietf127/` before the meeting.
+[Agenda](meetings/ietf127/agenda.md). Slides will be posted in
+`meetings/ietf127/` before the meeting.
 
 ## Drafts
 
